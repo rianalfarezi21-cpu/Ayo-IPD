@@ -1,0 +1,39 @@
+====================================================================
+PANDUAN MENGUBAH PAKET INI MENJADI FILE .APK ANDROID (100% OFFLINE)
+====================================================================
+
+Paket ZIP ini berisi aplikasi lengkap 'Inspeksi Panen Sawit' (www/index.html)
+yang sudah dirancang 100% OFFLINE (tanpa butuh sinyal internet di dalam blok kebun)
+beserta ikon aplikasi (app-icon.png) dan konfigurasi build Android.
+
+PILIH SALAH SATU CARA TERCEPAT DI BAWAH INI:
+
+--------------------------------------------------------------------
+CARA 1: PALING CEPAT TANPA CODING / TANPA PC (LEWAT HP / BROWSER)
+--------------------------------------------------------------------
+1. Ekstrak file ZIP ini di HP atau PC Anda.
+2. Buka situs pembuat APK instan gratis di browser:
+   - https://www.webintoapp.com  (atau https://appsgeyser.com)
+3. Pilih opsi "HTML / Local Website" (Offline App):
+   - Upload file: www/index.html (atau folder www dalam bentuk ZIP)
+   - Upload ikon: app-icon.png
+   - Nama Aplikasi: Inspeksi Panen Sawit
+4. Klik "Make App / Build APK" -> Tunggu ~30 detik -> Langsung unduh
+   file .APK fisik siap dibagikan ke grup WhatsApp Mandor & Kerani!
+
+--------------------------------------------------------------------
+CARA 2: OTOMATIS VIA GITHUB ACTIONS (GRATIS DI CLOUD, TANPA ANDROID STUDIO)
+--------------------------------------------------------------------
+1. Buat repository baru di GitHub.com dan upload seluruh isi folder ZIP ini.
+2. Buka tab "Actions" -> Pilih "Build Android APK" -> Klik "Run workflow".
+3. Dalam 3 menit, file 'Inspeksi-Panen-Sawit-APK' (.apk) otomatis muncul
+   di bagian Artifacts dan siap diunduh!
+
+--------------------------------------------------------------------
+CARA 3: DI LAPTOP / PC WINDOWS (JIKA SUDAH TERINSTAL NODE.JS & ANDROID SDK)
+--------------------------------------------------------------------
+1. Ekstrak folder ZIP ini.
+2. Klik dua kali file 'BUILD_APK.bat'.
+3. File APK akan otomatis jadi di:
+   android\app\build\outputs\apk\debug\app-debug.apk
+====================================================================

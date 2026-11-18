@@ -1,0 +1,9 @@
+{
+  "appId": "com.kebunsawit.inspeksipanen",
+  "appName": "Inspeksi Panen Sawit",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  }
+}
